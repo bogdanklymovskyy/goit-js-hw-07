@@ -1,10 +1,10 @@
 import { galleryItems } from './gallery-items.js';
 // Change code below this line
-// console.log(galleryItems);
-const imgGalleryEl = document.querySelector('.gallery');
+
+const IGE = document.querySelector('.gallery');
 const markupGallery = createMarkUp(galleryItems);
-imgGalleryEl.innerHTML = markupGallery;
-imgGalleryEl.addEventListener('click', onClickImg);
+IGE.innerHTML = markupGallery;
+IGE.addEventListener('click', onClickImg);
 
 function createMarkUp(galleryItems) {
     return galleryItems
